@@ -8,5 +8,5 @@
 ### 2023-02-22
 
 1. 初步学习 QOM api 并做简要记录
-2. 使用 qemu7.2.5 版本 复现ch2&ch3
+2. 使用 qemu7.2.5 版本 复现ch2&ch3&4
 3. 实践仓库 [link](https://github.com/Zweisamkeiten/qemu-quard-star/tree/yhf-dev)
