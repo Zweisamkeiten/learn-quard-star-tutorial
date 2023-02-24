@@ -11,7 +11,13 @@
 2. 使用 qemu7.2.5 版本 复现ch2&ch3&4
 3. 实践仓库 [link](https://github.com/Zweisamkeiten/qemu-quard-star/tree/yhf-dev)
 
-### 2023-02-22
+### 2023-02-23
 
 1. 复现 ch5&ch6 未完成
 2. 尝试用qemu已有平台机器 使用 opensbi + u-boot 启动 linux6.0.0, 进 kernel panic
+
+### 2023-02-24
+
+1. 复现 ch6&ch7
+2. opensbi domains support 文档未及时更新 根据代码内存区域的权限设置 M模式必须全设置1, SU模式不能全为0
+3. 向上游提了一个issue 已得到回复 https://github.com/riscv-software-src/opensbi/issues/289
