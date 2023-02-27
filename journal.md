@@ -21,3 +21,14 @@
 1. 复现 ch6&ch7
 2. opensbi domains support 文档未及时更新 根据代码内存区域的权限设置 M模式必须全设置1, SU模式不能全为0
 3. 向上游提了一个issue 已得到回复 https://github.com/riscv-software-src/opensbi/issues/289
+
+### 2023-02-25
+
+1. 修复 ch7 untrusted-domain 权限
+2. 重写构建和运行脚本 增加 debug 脚本 将自己增加文件转移至单独目录
+3. 初始化 u-boot submodule 开始尝试启动 u-boot
+
+### 2023-02-26
+
+1. 成功启动 u-boot
+
